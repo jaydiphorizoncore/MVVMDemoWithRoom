@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "notesTable")
 class Note(
     @ColumnInfo(name = "title") val noteTitle: String,
+
     @ColumnInfo(name = "description") val noteDescription: String,
     @ColumnInfo(name = "timestamp") val timeStamp: String
 ) {
