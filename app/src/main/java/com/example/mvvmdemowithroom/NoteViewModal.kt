@@ -14,7 +14,7 @@ class NoteViewModal(application: Application) : AndroidViewModel(application) {
     // on below line we are creating a variable
     // for our all notes list and repository
      val allNotes: LiveData<List<Note>>
-     private val repository: NoteRepository1
+     private val repository: NoteRepository
 
     // on below line we are initializing
     // our dao, repository and all notes
