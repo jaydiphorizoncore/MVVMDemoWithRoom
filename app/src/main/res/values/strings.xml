@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMDemoWithRoom</string>
+    <string name="str_note">Note</string>
+    <string name="str_date">Updated At</string>
+    <string name="str_edTitle">Enter Note Title</string>
+    <string name="str_descriptionHint">Enter Your Note Details</string>
+    <string name="str_update">Submit</string>
+    <string name="str_dateFormat">dd MMM, yyyy - HH:mm</string>
+</resources>
