@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity(), NoteClickInterface, NoteClickDeleteInt
 
         noteRecyclerView.layoutManager = LinearLayoutManager(this)
         val noteAdapter = NoteAdapter(this, this)
+
+
         noteRecyclerView.adapter = noteAdapter
 
         // on below line we are
