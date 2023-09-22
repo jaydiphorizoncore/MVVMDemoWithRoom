@@ -12,12 +12,12 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 class AddEditNoteActivity : AppCompatActivity() {
-    lateinit var edTitle: EditText
-    lateinit var edDescription: EditText
-    lateinit var btnSave: Button
+    private lateinit var edTitle: EditText
+    private lateinit var edDescription: EditText
+    private lateinit var btnSave: Button
 
-    lateinit var viewModal: NoteViewModal
-    var noteId = -1
+    private lateinit var viewModal: NoteViewModal
+    private var noteId = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
